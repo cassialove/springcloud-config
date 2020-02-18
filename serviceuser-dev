@@ -9,3 +9,6 @@ server:
 spring:
   application:
     name: serviceuser
+userinfo：
+  username:sxx
+  password:123456
