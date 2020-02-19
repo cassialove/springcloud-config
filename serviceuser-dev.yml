@@ -11,4 +11,4 @@ spring:
     name: serviceuser
 userinfo:
   username: sxx
-  password: 1340
+  password: 1345
