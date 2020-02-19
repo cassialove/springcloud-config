@@ -8,7 +8,7 @@ server:
   port: 8763
 spring:
   application:
-    name: serviceuser
+    name: serviceuser1
 userinfo:
   username: sxx
   password: 1345
