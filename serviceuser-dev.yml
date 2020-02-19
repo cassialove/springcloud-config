@@ -3,12 +3,12 @@ eureka:
     prefer-ip-address: true
   client:
     serviceUrl:
-      defaultZone: http://192.168.247.130:8761/eureka/
+      defaultZone: http://127.0.0.1:8761/eureka/
 server:
   port: 8763
 spring:
   application:
-    name: serviceuser1
+    name: serviceuserbenji
 userinfo:
   username: sxx
   password: 1345
