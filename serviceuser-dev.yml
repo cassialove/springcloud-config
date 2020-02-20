@@ -15,5 +15,5 @@ spring:
     username: guest
     password: guest
 userinfo:
-  username: fsq
+  username: fsqxka
   password: 12345678
