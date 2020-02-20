@@ -10,5 +10,5 @@ spring:
   application:
     name: serviceuser
 userinfo:
-  username: fs1
+  username: fsq
   password: 12345678
