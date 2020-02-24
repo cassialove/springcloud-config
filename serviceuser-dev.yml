@@ -1,19 +1,26 @@
 eureka:
   instance:
     prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${server.port}
   client:
     serviceUrl:
       defaultZone: http://192.168.1.190:8761/eureka/
 server:
   port: 8763
 spring:
+  instance:
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true
   application:
     name: serviceuser
-  rabbitmq:
-    host: 192.168.1.105
-    port: 5672
-    username: guest
-    password: guest
+  cloud:
+    client:
+      ipAddress: 192.168.1.190
+    config:
+      discovery:
+        enabled: true
+        service-id: springcloud-config
+      profile: dev
 userinfo:
-  username: fsqxkaxkafsq
-  password: 12345678
+  username: sxx
+  password: 11111232323
