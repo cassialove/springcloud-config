@@ -3,14 +3,14 @@ eureka:
     prefer-ip-address: true
   client:
     serviceUrl:
-      defaultZone: http://192.168.247.131:8761/eureka/
+      defaultZone: http://192.168.1.190:8761/eureka/
 server:
   port: 8763
 spring:
   application:
     name: serviceuser
   rabbitmq:
-    host: 192.168.1.5
+    host: 192.168.1.105
     port: 5672
     username: guest
     password: guest
