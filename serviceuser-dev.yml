@@ -4,7 +4,7 @@ eureka:
     instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${server.port}
   client:
     serviceUrl:
-      defaultZone: http://192.168.1.190:8761/eureka/
+      defaultZone: http://eurekaserver:8761/eureka/
 server:
   port: 8763
 spring:
@@ -15,7 +15,7 @@ spring:
     name: serviceuser
   cloud:
     client:
-      ipAddress: 192.168.1.190
+      ipAddress: eurekaserver
     config:
       discovery:
         enabled: true
