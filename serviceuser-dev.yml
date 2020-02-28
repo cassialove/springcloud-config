@@ -8,6 +8,11 @@ eureka:
 server:
   port: 8767
 spring:
+  rabbitmq:
+    host: eurekaserver
+    port: 32770
+    username: guest
+    password: guest
   instance:
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
     prefer-ip-address: true
