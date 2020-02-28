@@ -27,5 +27,5 @@ spring:
         service-id: springcloud-config
       profile: dev
 userinfo:
-  username: sxx
-  password: 11111232323
+  username: fsfdsfdd
+  password: testnew
