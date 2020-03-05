@@ -27,5 +27,5 @@ spring:
         service-id: springcloud-config
       profile: dev
 userinfo:
-  username: dbgis90
-  password: abcddd90
+  username: dbgis100
+  password: abcddd100
